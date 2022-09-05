@@ -1,5 +1,13 @@
 <h1 align="center">HTML コーディング用<br />ボイラープレート</h1>
 
+## Start 🚀
+
+```bash
+yarn start
+```
+
+Check http://localhost:3000/
+
 ## 技術
 
 - EJS
