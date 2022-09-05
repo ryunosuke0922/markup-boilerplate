@@ -134,7 +134,7 @@ meter {
 
 .mv {
   width: 100%;
-  margin: 0 0 2rem;
+  margin: 0 0 4rem;
   padding: 1rem 12rem;
   display: flex;
   justify-content: flex-start;
@@ -154,7 +154,7 @@ meter {
 
 .content {
   width: 100%;
-  margin: 0 0 1rem;
+  margin: 0 0 8.4rem;
   padding: 1rem 12rem;
 }
 .content h1 {
@@ -162,32 +162,6 @@ meter {
   line-height: 1.4;
   margin: 0 0 1.2rem;
 }
-.content h2 {
-  font-size: 1.2rem;
-  line-height: 1.4;
-  margin: 0 0 0.8rem;
-}
-.content h3 {
-  font-size: 1rem;
-  line-height: 1.4;
-  margin: 0 0 0.6rem;
-}
-.content ul {
-  margin: 0 0 1.6rem;
-}
-.content ul li {
-  font-size: 1rem;
-  line-height: 1.4;
-  padding: 0 0 0.2rem 1.2rem;
-  position: relative;
-}
-.content ul li:before {
-  content: "-";
-  position: absolute;
-  top: 0.08rem;
-  left: 0;
-}
-
 header {
   background-color: transparent;
 }
@@ -207,7 +181,7 @@ footer {
   padding: 1rem 12rem;
 }
 footer small {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   line-height: 1;
   color: rgba(255, 255, 255, 0.8);
 }
