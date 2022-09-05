@@ -1,0 +1,49 @@
+/*
+#styleguide
+
+*/
+html {
+	/*! autoprefixer: ignore next */
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+
+	font-family: 62.5%;
+	font-family: sans-serif;
+}
+
+body {
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	-webkit-font-smoothing: $font-smoothing;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: $font-smoothing;
+	text-rendering: $text-rendering;
+	font-family: $base-font-family;
+	-webkit-font-smoothing: antialiased;
+	overflow-scrolling: auto;
+
+	color: $base-font-color;
+	background-color: $base-background-color;
+
+	a {
+		text-decoration: none;
+	}
+	* {
+		box-sizing: border-box;
+	}
+}
+
+input,
+button,
+textarea,
+select {
+	margin: 0;
+	padding: 0;
+	background: none;
+	border: none;
+	border-radius: 0;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}

@@ -1,0 +1,11 @@
+@mixin query($size) {
+	@media screen and (max-width: $size + px) {
+		@content;
+	}
+}
+
+@mixin query_min($size) {
+	@media screen and (min-width: $size + px) {
+		@content;
+	}
+}

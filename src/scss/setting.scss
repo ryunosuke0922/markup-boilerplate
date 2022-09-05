@@ -1,0 +1,21 @@
+//antialiased,subpixel-antialiased,none
+$font-smoothing: antialiased;
+
+//auto,optimizeSpeed,optimizeLegibility,geometricPrecision
+$text-rendering: auto;
+
+$base-font-family: sans-serif;
+$font-jp: serif;
+$base-font-size: 1.6rem;
+$base-font-color: rgba(
+	$color: #fff,
+	$alpha: 0.95,
+);
+$base-background-color: #1a1f2e;
+
+$black: #333;
+$white: #fff;
+
+$ease: cubic-bezier(0.33, 0.41, 0.19, 1);
+
+$time: 0.4s;

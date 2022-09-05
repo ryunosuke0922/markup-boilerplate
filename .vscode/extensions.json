@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "ecmel.vscode-html-css",
+    "vincaslt.highlight-matching-tag",
+    "oderwat.indent-rainbow",
+    "esbenp.prettier-vscode",
+    "mosapride.zenkaku",
+    "streetsidesoftware.code-spell-checker",
+    "pkief.material-icon-theme",
+    "coenraads.bracket-pair-colorizer-2"
+  ]
+}

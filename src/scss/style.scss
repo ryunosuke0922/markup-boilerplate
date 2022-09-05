@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@import './setting';
+
+@import './base/base';
+@import './base/mixin';
+@import './base/reset';
+
+@import './main';
+
+@import './partials/header';
+@import './partials/footer';
