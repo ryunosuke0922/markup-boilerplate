@@ -14,6 +14,7 @@ Check http://localhost:3000/
 - Gulp
 - Sass
 - TypeScript
+- Webpack(js)
 - Browser-sync
 - Prettier
 - Eslint
@@ -48,5 +49,6 @@ markup-boilerplate
 ├── package.json
 ├── README.md
 ├── tsconfig.json
+├── webpack.config.js
 └── yarn.lock
 ```

@@ -188,6 +188,38 @@ meter {
   left: 0;
 }
 
+.js-scroll-fade {
+  opacity: 0;
+  transform: translate(0, -40px);
+  transition: transform 1s cubic-bezier(0.33, 0.41, 0.19, 1), opacity 1.2s cubic-bezier(0.33, 0.41, 0.19, 1);
+}
+@media screen and (max-width: 767px) {
+  .js-scroll-fade {
+    perspective: 1000;
+    transform: translate(0, -20px);
+    -webkit-transform: translate(0, -20px);
+  }
+}
+.js-scroll-fade.is-animation {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+@media screen and (max-width: 767px) {
+  .js-scroll-fade.is-animation {
+    -webkit-transform: translate(0, 0);
+  }
+}
+.js-scroll-fade.is-delay {
+  transform: translate(0, 0);
+  transition-delay: 0.34s;
+}
+@media screen and (max-width: 767px) {
+  .js-scroll-fade.is-delay {
+    -webkit-transform: translate(0, 0);
+    -webkit-transition-delay: 0.34s;
+  }
+}
+
 header {
   background-color: transparent;
 }

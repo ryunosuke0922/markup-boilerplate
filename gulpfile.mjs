@@ -3,13 +3,16 @@ import fs from 'fs';
 import gulp from 'gulp';
 import ejs from 'gulp-ejs';
 import imagemin from 'gulp-imagemin';
+import plumber from 'gulp-plumber';
 import rename from 'gulp-rename';
 import replace from 'gulp-replace';
 import gulpSass from 'gulp-sass';
-import ts from 'gulp-typescript';
 import dartSass from 'sass';
+import webpack from 'webpack';
+import webpackStream from 'webpack-stream';
 const sass = gulpSass(dartSass);
-const tsProject = ts.createProject('tsconfig.json');
+
+import webpackConfig from './webpack.config.js';
 
 const EJScompile = (done) => {
 	const data = JSON.parse(fs.readFileSync('./data.json'));
@@ -24,18 +27,18 @@ const EJScompile = (done) => {
 
 const SassCompile = (done) => {
 	gulp.src('./src/scss/style.scss')
-		.pipe(
-			sass.sync({
-				outputStyle: 'expanded',
-			}),
-		)
-		.on('error', sass.logError)
+		.pipe(plumber())
+		.pipe(sass())
 		.pipe(gulp.dest('./dist/scss/'));
+
 	done();
 };
 
 const TsCompile = (done) => {
-	gulp.src('./src/ts/*.ts').pipe(tsProject()).js.pipe(gulp.dest('dist/ts/'));
+	gulp.src('./src/ts/*.ts')
+		.pipe(plumber())
+		.pipe(webpackStream(webpackConfig, webpack))
+		.pipe(gulp.dest('./dist/ts/'));
 	done();
 };
 
