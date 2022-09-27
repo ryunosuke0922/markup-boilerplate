@@ -9,6 +9,7 @@
 		"source.fixAll.stylelint": true,
 		"source.organizeImports": true
 	},
+	"editor.renderWhitespace": true,
 	"editor.formatOnSave": true,
 	"editor.lineNumbers": "on",
 	"editor.rulers": [80],
