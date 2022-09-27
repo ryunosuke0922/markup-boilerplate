@@ -1,84 +1,84 @@
 .mv {
-	width: 100%;
-	margin: 0 0 2rem;
-	padding: 1rem 12rem;
+  width: 100%;
+  margin: 0 0 2rem;
+  padding: 1rem 12rem;
 
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-	&__icon {
-		width: 12rem;
-		height: 12rem;
-		overflow: hidden;
-		border-radius: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  &__icon {
+    width: 12rem;
+    height: 12rem;
+    overflow: hidden;
+    border-radius: 50%;
 
-		img {
-			width: 100%;
-			height: 100%;
-			object-fit: cover;
-		}
-	}
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
 }
 
 .content {
-	width: 100%;
-	margin: 0 0 1rem;
-	padding: 1rem 12rem;
+  width: 100%;
+  margin: 0 0 1rem;
+  padding: 1rem 12rem;
 
-	h1 {
-		font-size: 1.4rem;
-		line-height: 1.4;
-		margin: 0 0 1.2rem;
-	}
-	h2 {
-		font-size: 1.2rem;
-		line-height: 1.4;
-		margin: 0 0 0.8rem;
-	}
-	h3 {
-		font-size: 1rem;
-		line-height: 1.4;
-		margin: 0 0 0.6rem;
-	}
-	ul {
-		margin: 0 0 1.6rem;
-		li {
-			font-size: 1rem;
-			line-height: 1.4;
-			padding: 0 0 0.2rem 1.2rem;
-			position: relative;
-			&:before {
-				content: '-';
-				position: absolute;
-				top: 0.08rem;
-				left: 0;
-			}
-		}
-	}
+  h1 {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    margin: 0 0 1.2rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin: 0 0 0.8rem;
+  }
+  h3 {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin: 0 0 0.6rem;
+  }
+  ul {
+    margin: 0 0 1.6rem;
+    li {
+      font-size: 1rem;
+      line-height: 1.4;
+      padding: 0 0 0.2rem 1.2rem;
+      position: relative;
+      &:before {
+        content: '-';
+        position: absolute;
+        top: 0.08rem;
+        left: 0;
+      }
+    }
+  }
 }
 
 .js-scroll-fade {
-	opacity: 0;
-	transform: translate(0, -40px);
-	transition: transform 1s $ease, opacity 1.2s $ease;
-	@include query($break) {
-		perspective: 1000;
-		transform: translate(0, -20px);
-		-webkit-transform: translate(0, -20px);
-	}
-	&.is-animation {
-		opacity: 1;
-		transform: translate(0, 0);
-		@include query($break) {
-			-webkit-transform: translate(0, 0);
-		}
-	}
-	&.is-delay {
-		transform: translate(0, 0);
-		transition-delay: 0.34s;
-		@include query($break) {
-			-webkit-transform: translate(0, 0);
-			-webkit-transition-delay: 0.34s;
-		}
-	}
+  opacity: 0;
+  transform: translate(0, -40px);
+  transition: transform 1s $ease, opacity 1.2s $ease;
+  @include query($break) {
+    perspective: 1000;
+    transform: translate(0, -20px);
+    -webkit-transform: translate(0, -20px);
+  }
+  &.is-animation {
+    opacity: 1;
+    transform: translate(0, 0);
+    @include query($break) {
+      -webkit-transform: translate(0, 0);
+    }
+  }
+  &.is-delay {
+    transform: translate(0, 0);
+    transition-delay: 0.34s;
+    @include query($break) {
+      -webkit-transform: translate(0, 0);
+      -webkit-transition-delay: 0.34s;
+    }
+  }
 }

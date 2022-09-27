@@ -1,25 +1,25 @@
 {
-	"git.ignoreLimitWarning": true,
-	"css.validate": false,
-	"less.validate": false,
-	"scss.validate": false,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": true,
-		"source.fixAll.stylelint": true,
-		"source.organizeImports": true
-	},
-	"editor.renderWhitespace": true,
-	"editor.formatOnSave": true,
-	"editor.lineNumbers": "on",
-	"editor.rulers": [80],
-	"javascript.suggest.paths": true,
-	"editor.wordWrap": "on",
-	"eslint.packageManager": "yarn",
-	"files.insertFinalNewline": true,
-	"files.trimTrailingWhitespace": true,
-	"npm.packageManager": "yarn",
-	"typescript.enablePromptUseWorkspaceTsdk": true,
-	"cSpell.words": [""],
-	"files.eol": "\n"
+  "git.ignoreLimitWarning": true,
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true,
+    "source.organizeImports": true
+  },
+  "editor.renderWhitespace": "all",
+  "editor.formatOnSave": true,
+  "editor.lineNumbers": "on",
+  "editor.rulers": [80],
+  "javascript.suggest.paths": true,
+  "editor.wordWrap": "on",
+  "eslint.packageManager": "yarn",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "npm.packageManager": "yarn",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "cSpell.words": [""],
+  "files.eol": "\n"
 }

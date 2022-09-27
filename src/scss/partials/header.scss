@@ -1,14 +1,14 @@
 header {
-	background-color: transparent;
+  background-color: transparent;
 
-	.header__inner {
-		padding: 2rem 12rem;
-		display: flex;
-		justify-content: flex-start;
-		align-items: center;
-		p {
-			font-size: 1.4rem;
-			line-height: 1;
-		}
-	}
+  .header__inner {
+    padding: 2rem 12rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    p {
+      font-size: 1.4rem;
+      line-height: 1;
+    }
+  }
 }

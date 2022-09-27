@@ -1,10 +1,10 @@
 {
-	"files": ["src/ts/main.ts"],
-	"compilerOptions": {
-		"target": "es6",
-		"module": "commonjs",
-		"esModuleInterop": true,
-		"moduleResolution": "node"
-	},
-	"include": ["./gulpfile.mjs"]
+  "files": ["src/ts/main.ts"],
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "moduleResolution": "node"
+  },
+  "include": ["./gulpfile.mjs"]
 }

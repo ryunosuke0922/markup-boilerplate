@@ -1,58 +1,58 @@
 <!DOCTYPE html>
 <html lang="ja">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="keywords" content="" />
-		<meta name="description" content="" />
-		<meta name="author" content="" />
-		<meta property="og:url" content="<%= data.siteUrl %>" />
-		<meta property="og:site_name" content="" />
-		<meta property="og:type" content="website" />
-		<meta property="og:title" content="" />
-		<meta property="og:image" content="" />
-		<meta property="og:description" content="" />
-		<link rel="icon" sizes="16x16 32x32 48x48 64x64" href="" />
-		<title><%- data.head.title %></title>
-		<link rel="icon" href="./assets/images/favicon.ico" />
-		<link rel="stylesheet" href="./scss/style.css" />
-		<script>
-			var exports = {};
-		</script>
-	</head>
-	<body>
-		<body>
-			<%- include("./partials/header.ejs", {header: data.header}) %>
-			<main>
-				<div class="mv js-scroll-fade">
-					<div class="mv__icon">
-						<img src="./assets/images/icon.jpg" alt="" />
-					</div>
-				</div>
-				<div class="content js-scroll-fade">
-					<h1>HTML コーディング用のボイラープレート</h1>
-					<h2>gulp + ejs</h2>
-					<h3>tec</h3>
-					<ul>
-						<li>gulp</li>
-						<li>gulp-ejs</li>
-						<li>browser-sync</li>
-						<li>scss</li>
-						<li>typescript</li>
-						<li>Webpack</li>
-					</ul>
-					<h3>utils</h3>
-					<ul>
-						<li>prettier</li>
-						<li>eslint</li>
-						<li>editorconfig</li>
-						<li>vscode setting(.vscode)</li>
-					</ul>
-				</div>
-			</main>
-			<%- include("./partials/footer.ejs", {footer: data.footer}) %>
-		</body>
-		<script src="./ts/main.js"></script>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta property="og:url" content="<%= data.siteUrl %>" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="" />
+    <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="" />
+    <title><%- data.head.title %></title>
+    <link rel="icon" href="./assets/images/favicon.ico" />
+    <link rel="stylesheet" href="./scss/style.css" />
+    <script>
+      var exports = {};
+    </script>
+  </head>
+  <body>
+    <body>
+      <%- include("./partials/header.ejs", {header: data.header}) %>
+      <main>
+        <div class="mv js-scroll-fade">
+          <div class="mv__icon">
+            <img src="./assets/images/icon.jpg" alt="" />
+          </div>
+        </div>
+        <div class="content js-scroll-fade">
+          <h1>HTML コーディング用のボイラープレート</h1>
+          <h2>gulp + ejs</h2>
+          <h3>tec</h3>
+          <ul>
+            <li>gulp</li>
+            <li>gulp-ejs</li>
+            <li>browser-sync</li>
+            <li>scss</li>
+            <li>typescript</li>
+            <li>Webpack</li>
+          </ul>
+          <h3>utils</h3>
+          <ul>
+            <li>prettier</li>
+            <li>eslint</li>
+            <li>editorconfig</li>
+            <li>vscode setting(.vscode)</li>
+          </ul>
+        </div>
+      </main>
+      <%- include("./partials/footer.ejs", {footer: data.footer}) %>
+    </body>
+    <script src="./ts/main.js"></script>
+  </body>
 </html>

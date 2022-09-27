@@ -1,14 +1,14 @@
 {
-	"data": {
-		"siteUrl": "",
-		"head": {
-			"title": "markup-boilerplate"
-		},
-		"header": {
-			"title": "markup-boilerplate"
-		},
-		"footer": {
-			"copywriter": "© 2022"
-		}
-	}
+  "data": {
+    "siteUrl": "",
+    "head": {
+      "title": "markup-boilerplate"
+    },
+    "header": {
+      "title": "markup-boilerplate"
+    },
+    "footer": {
+      "copywriter": "© 2022"
+    }
+  }
 }
