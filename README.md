@@ -1,4 +1,4 @@
-<h1 align="center">HTML コーディング用<br />ボイラープレート</h1>
+<h1 align="center">HTML/CSS Boilerplate</h1>
 
 ## Start 🚀
 
